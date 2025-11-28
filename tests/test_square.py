@@ -7,7 +7,7 @@ sys.path.append(parent_dir)
 import square
 import unittest
 
-class SquareeTestCase(unittest.TestCase):
+class SquareTestCase(unittest.TestCase):
     def test_zero_multiple(self):
         res1 = square.area(0)
         res2 = square.perimeter(0)
